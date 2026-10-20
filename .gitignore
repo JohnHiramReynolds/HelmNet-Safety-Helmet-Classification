@@ -1,0 +1,31 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Original datasets
+Images.npy
+Labels.csv
+
+# Model checkpoints and generated models
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Operating system files
+.DS_Store
+Thumbs.db
